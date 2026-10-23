@@ -1,0 +1,4 @@
+UnitTypeTable record fields (4c0858+i*0x4c): +0xa hp, +0xc COST (int), +0x2c speed idx? (-1 none), +0x3c handler.
+Types 0/1: cost 5000/3500, hp 10/20, handler 0x452f30 (harvester state machine). Not matched to any manual unit price (manual: Commander 2000, Priest 2200, Mortar 1600...). Likely vestigial 'harvester' designs; never offered in manual. [I]
+Whole table costs: 0:5000 1:3500 2:3000 3,4:4000 5:1000 6,7:2250 8,9:7500 10:3750 12:10000 13-15:500 16:1500 17:2500 18:800 19:1500 20:500 21:4250 22-25:3000 | 26:50000 27:1000 28:4000 29:3500 30:2000 31:1200 32:1750 (=production items 0x1a-0x20 = upgrades: bomb? shell 3500, body armor 1200, plating 1750) | 33:5000 34:6000 35:3000 36,37:7000 38:10000 39:50000(bomb crate) 40:25000(stealth) 41:22500(reveal map) 42:25000 43:8000.
+Manual match: 39/40/41 = Bomb 50,000 / Stealth 25,000 / Reveal Map 22,500 crates; 29=Shell upgrade 3,500; 31=Body armor 1,200; 32=Armor plating 1,750.
