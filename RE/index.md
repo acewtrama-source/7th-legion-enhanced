@@ -130,7 +130,8 @@ Names in (parentheses) are unverified hypotheses. Sizes are bytes where known. `
 | 0x440450 | MP_Lobby | ui/net | decompiled | O | 5638 | src/ui/lobby.c (hooks) | MP/skirmish lobby: slots, factions, options, gv sync, start handshake. functions/00440450.md |
 | 0x4758b0/0x475be0/0x475cd0/0x476010/0x475dc0 | Btn Create/Enable/SetValue/GetValue/SetText | ui | understood | O | - | - | button toolkit, slot table 0x592bb0 stride 0x3c0 |
 | 0x41c346.. | UpdateWinLose (inline stage) | core/rules | understood | O | - | src/sim/teams.c (H10,H11) | functions/teams.md |
-| (teams) | allied() hooks H1..H11 | sim/teams | implemented | O | - | src/sim/teams.c | functions/teams.md |
+| (teams) | allied() hooks H1..H11, H13..H16 shared vision | sim/teams | implemented | O | - | src/sim/teams.c | functions/teams.md |
+| 0x466030 | factory unit panel (draw) | ui/build | understood | O | - | src/sim/cheats.c (truck_stub) | HQ truck at vehicle factory; functions/cheats.md |
 | 0x445fff | ExecuteCommands chat case (kind 0x65) | net/chat | understood | O | - | src/sim/cheats.c | dev cheats; functions/cheats.md |
 | 0x4245c0 | FindFreeTileNearBuilding(bldg,size)->x|y<<16 | world | understood | O | - | - | used by production and cheats |
 | 0x4657c6.. | Chat_Post (cmd 0x65, text 0x4e0d88) | ui/chat | located | O | - | - | |
@@ -138,6 +139,20 @@ Names in (parentheses) are unverified hypotheses. Sizes are bytes where known. `
 | 0x420240 | RemoveBuildingQuiet | world | understood | O | - | - | functions/cheats.md |
 | 0x4207a0 | RestoreGroundUnderBuilding(+crater) | world | understood | O | - | - | |
 | 0x4210c0 | RemoveUnitQuiet | world | understood | O | - | - | |
-| 0x464ee0 | UI_HoverCursor | ui | understood | O | - | src/sim/cheats.c | |
+| 0x464ee0 | UI_HoverCursor (2 ground, 4 attack, 3 own selected, -1 select, 0x14 priest) | ui | understood | O | - | src/sim/teams.c (tm_cur_unit/bld) | ally = select cursor; functions/cheats.md rev 10 |
 | 0x4659c2.. | UI_BuildList (construction icons, click -> 0x6729b0) | ui | understood | O | - | src/sim/cheats.c (hooks) | functions/cheats.md rev 4 |
 | 0x4932f0 | QueueSprite(sheet,frame,x,y) | gfx | understood | O | - | - | |
+| 0x42d420 | DestroyUnit(slot) | world | decompiled | O | ~1300 | src/sim/cheats.c (self destruct) | direct mode: death fx + removal; queue mode posts kind 0xb. functions/0042d420.md |
+| 0x42ccc0 | DestroyBuilding(idx) | world | decompiled | O | ~1100 | src/sim/cheats.c (self destruct) | functions/0042ccc0.md |
+| 0x41ac80.. (in 0x416fe0) | SpecialOrders_Pick | rules | understood | O | - | src/sim/cheats.c (mission_stub @0x41ad45) | type 0x9d6340[p], target 0x90aad0[p]; functions/cheats.md rev 10 |
+| 0x41bebb (in 0x416fe0) | sim tick ++ (0x6df3b0) | engine | located | O | - | src/sim/cheats.c (trib_stub) | per-tick hook point |
+| 0x416b36 / 0x417c97 (in 0x416fe0) | input gathers (Ctrl, Shift words) | ui/input | located | O | - | src/sim/cheats.c (sd_stub/sd_stub2) | both must be hooked |
+| 0x405747 | WndProc WM_KEYDOWN/UP -> key words 0x71b3e0/0x71b4e0 | ui/input | understood | O | - | - | scancode from lParam |
+| 0x465543.. | Chat input (typing flag 0x834fb0, Enter 0x1c posts) | ui/chat | located | O | - | - | |
+| 0x408480 | RemapSprites(buf) (palette 0x66cd44 -> screen via cube 0xaa210c; low-res halves rows) | gfx | decompiled | O | - | src/sim/cheats.c (card_remap, icon_remap) | |
+| 0x4081a0 | LoadFile(name) (VCLZ LZSS or raw; size -> 0xa133c0) | io | decompiled | O | - | - | |
+| 0x493ab0 / 0x4939c0 / 0x493090 | QueueSprite variants (type 9 / 7 / clip 0xb) | gfx | decompiled | O | - | - | draw queue PTR 0x4d7dd4, 0x1c per item, max 0x800 |
+| 0x410b65.. / 0x410d1b.. | load cards.bim or incards.bim (0x6ccad0), iconsb.bim or iconsb1.bim (0x6ce120) | gfx | located | O | - | src/sim/cheats.c | |
+| 0x4659f4 / 0x465b17 / 0x465b56 | UI_BuildList paging (pre-count, more, back) | ui | understood | O | - | src/sim/cheats.c | back and more shared one slot in the original; functions/cheats.md rev 11-13 |
+| 0x4c20d0 | battle card power table (stride 0xc, flags dword +0) | data | located | O | - | - | cards.bim frame = id (-1 if id >= 0x19) |
+| (all patch sites) | legion_enh.exe hook catalogue | patch | implemented | O | - | tools/patch_exe.py | functions/patch-hooks.md |

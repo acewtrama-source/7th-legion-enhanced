@@ -72,3 +72,36 @@ One row per address. `p` = per-player index. Tags: [O] observed, [I] inferred, [
 | 0x6df140[p] | short[] | faction (side) per player 1..6 (0 7th Legion, 1 Chosen) from lobby | 00440450 W, 00424c20 R | O |
 | 0x9d5a90 | int | AI players enabled | 00440450 W | O |
 | 0x90a268 | short | total players (H+AIs) | 00440450 W | O |
+
+## Added at Phase 2 close-out (Oct 24 2026) [O unless noted]
+| addr | type | role | used by | conf |
+|---|---|---|---|---|
+| 0x803c40 / 0x834f88 / 0x668ccc / 0x75ba10 | short | humans H / total players N / local player / fog viewer | many | O |
+| 0x4aee00 / 0x719fa4 | short / int | host flag (1) / skirmish protocol (1) | lobby, AI | O |
+| 0x6df140[p] | short | side (0 7th Legion, 1 Chosen) | many | O |
+| 0x834a00[p] | int | credits | many | O |
+| 0x85e7d0[p] | short | building count | win check, special orders | O |
+| 0x804700[p] | short | unit count (cap compare 0x424caf) | CreateUnit | O |
+| 0x6e5a60 | short | 1 for whole game when H<=1: CreateUnit/CreateBuilding use preset slots 0x4b5650 / 0x4b5654 | create fns | O |
+| 0x71667c | short | 1 = queue mode (create/destroy post commands), 0 = direct (inside ExecuteCommands) | create/destroy | O |
+| 0x671a20 / 0x66ccf0 / 0x834f94 | rec[64] / short / short | command ring (0x2a per slot) / head / peer ack (full when head+2 == ack) | 0x444c00, 0x42d420 | O |
+| 0x773410 / 0x9e2d80 | rec / int | command record being posted (0x26 bytes) / its size | PostCommand callers | O |
+| 0x79fdf0 | table | commands being executed (text +4, chat sender +0x21) | 0x445930 | O |
+| 0x6df3b0 | int | game tick (++ at 0x41bec7) | sim, RNG seeds | O |
+| 0x90a27c | int | game RNG index (table 0x4afc00/0x4afbfc) | sim | O |
+| 0x66da10 / 0x672d80 | byte / short [128*128] | fog (3 written on reveal; bit 0 tested as visible) / seen map | fog | I |
+| 0x6d3920 | byte[128*128] | unit occupancy (slot+1) | movement, create | O |
+| 0x71b3e0 + sc*2 / 0x71b4e0 + sc*2 | short | key down by scancode / extended keys | input | O |
+| 0x834fb0 | short | chat typing active | chat | O |
+| 0x6df160[40] / 0x6dd208 / 0x858514 | short | selected unit slots / count / selected building | UI | O |
+| 0x4c1fc8 / 0x4c1fcc | short | build list page first / last type (1..0x16) | UI_BuildList | O |
+| 0x6682e0 / 0x4e1180 / 0x4e1230 / 0x4e0f88 [0x50] | short | build list entry active / value / x / y | UI_BuildList | O |
+| 0x6683f0[p*0x50+k] / 0x7ffef0[b*0x50+k] | short | unit k unlocked / vdepend (building b can build k) | factory panel | O |
+| 0x754fb0[p*0x50+t] | short | building type t available | build list | O |
+| 0x6df1b0 / 0x773408 / 0x805a54 | char[] / short / short | centre message text / show flag / timer | messages | O |
+| 0x85ef60 + i*0x50 | char[80] | GameText line i+1 | UI | O |
+| 0x78b770 + p*128 | char[] | player name | chat | O |
+| 0x9d6340 / 0x90aad0 / 0x9e2d90 / 0x9dbbd0 / 0x9e2520 [p] | int | special order type / target player / building type / count / timer | 0x41ac80 | O |
+| 0x6ce120 / 0x6ccad0 / 0x803438 | ptr | icon sheet / card sheet / other UI sheet | UI | O |
+| 0x66cd44 | ptr | palette RGB (6-bit) used by RemapSprites | gfx | O |
+| 0xa133c0 | int | size of the last loaded file | LoadFile, RemapSprites | O |
