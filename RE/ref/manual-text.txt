@@ -1,0 +1,1538 @@
+ A WORD ABOUT
+ THIS GAME
+We would like to thank you for purchasing one of our products. Please remember that
+the developers of this product are relying on you not to give away copies to others.
+They have spent a lot of time, effort and money to bring this software to you, and are
+depending solely upon royalties from sales in order to make a living. Your purchase will
+allow them to invest the time and energy necessary to produce additional high quality
+software in the future.
+We are committed to providing products for you that are of the highest quality and value.
+If you have questions concerning any of our software, or if there are additional programs
+that you would like to see developed, please contact us at:
+ MicroProse CompuServe: 76004,2223
+ 2490 Mariner Square Loop Fax: (510)522-9357
+ Alameda, CA 94501 Internet: support@microprose.com
+ (510) 522-1164 World Wide Web: www.microprose.com
+ GlLMAN G. LOUIE
+ MlCRQPRQSE
+ USER MANUAL
+EPIC rnmrn****** tV\f\£*f
+ /r==UKUrKUbt
+CONTENTS STORY 4
+ SYSTEM REQUIREMENTS 6
+ MOUSE TERMINOLOGY 6
+ INSTALLING THE GAME 7
+ LOADING THE GAME B
+ STARTING THE GAME B
+ MAIN MENU B
+ THE 7TH LEGION- INTERFACE... 1 D
+ THE FIELD OF BATTLE 11
+ CONTROLLING YOUR UNITS 13
+ BUILDING STRUCTURES 17
+ POWER 1B
+ GENERATING BATTLE UNITS 19
+ DEVELOPING NEW
+ TECHNOLOGY ZD
+ GETTING PAID ZD
+ WE'RE GOING TO WAR! 21
+ MISSION OBJECTIVES 21
+ ATTACKING ENEMY UNITS &
+ STRUCTURES 21
+ CASUALTIES OF WAR 23
+ MOVING UP IN RANK 27
+ PLAYER RANKS 27
+ UNIT RANKS.. , 27
+ Page ii Legion User s Manual
+ •^^^
+ 5^^
+ADVANCED CONTROLS 2S
+OPTIONS MENU 29
+MULTIPLAYER GAMINE 3D
+ SELECTING A PROTOCOL 3D
+ MULTIPLAYER GAME SETUP 32
+ PLAYING A MULTIPLAYER
+ GAME 34
+7TH LEGION DATABASE 35
+ FORCE BIOGRAPHIES 36
+ TROOPS 3B
+ CHOSEN UNITS 4D
+ VTH LEGION UNITS 42
+ STRUCTURES 44
+ STATIONARY WEAPONS 4B
+ CONSTRUCTION LEVELS 48
+ HI-TECH LAB UPGRADES
+ AND CREATIONS 49
+ BATTLE CARDS 5D
+CUSTOMER SUPPORT 5"7
+CREDITS . . 62
+ 7th Legion User s Manual Page iii
+ STORY
+ Centuries of overpopulation and reckless consumption
+ had brought the Earth's ecosystem to the brink of
+ collapse. Radical, panic-induced laws restricting
+ reproduction and fuel use came too late to stem the tide
+ of decay and pollution that was rapidly drowning the
+ planet. Scientists predicted that within just two to three
+ decades, mass starvation and disease would ravage the
+ entire planet. In desperation, governments and global
+ corporations set up a Planetary Evacuation Program
+ (P.E.P.) to transport the Earth's inhabitants to safety on
+ interstellar bio-colonies.
+ Several years later, however, as the time for departure
+ neared, it was evident that there was nowhere near
+ enough room aboard the evacuation shuttles for all of
+ the Earth's inhabitants. A selection lottery was imple-
+ mented, but it soon became clear that only the most
+ privileged segments of society were being chosen for
+ evacuation.
+ Widespread panic and chaos erupted as the shuttles
+ prepared for departure. Thousands tried to force their
+ way onto the spacebound ships but were instead turned
+ back or slaughtered by P.E.P. military escort troops. In
+ the end, the shuttles lifted off as planned, carrying their
+ privileged cargo away from a dying planet. And leaving
+ billions behind to perish.
+Page 4 7th Legion User s Manual
+Hundreds of years later...
+Having been relieved of a substantial segment of its
+population by the P.E.P. and sacrificing a far more
+sizable segment to famine and disease, the Earth has
+begun to heal. Those who managed to survive after the
+evacuation eventually split into seven legions, all vying
+for political and military control of the planet and its
+scarce resources.
+With global communication fractured and record-
+keeping eclipsed by more pressing needs of survival,
+the P.E.P. and those selected to participate in it have
+become clouded in myth and legend.
+The most well-known legend prophesies the Returning,
+a time of war when the Chosen return to reclaim their
+place on Earth. The Returning, it is told, will be pre-
+ceded by three concurrent signs that any man can see.
+The first is one day and one night of continual daylight.
+The second is a day and night of darkness. The final
+sign is the rain of fire.
+The signs have begun to appear. The seven legions
+must now put aside their differences and join forces to
+protect the Earth from the legendary enemy they all
+fear most of all—the Chosen.
+You control the most powerful legion of all, the
+7th Legion.
+ 7th Legion User s Manual Page 5
+ •^^^•Mtt^^^B
+ SYSTEM CPU: IBM PC Pentium® 100MHz
+REQUIREMENTS Operating System: Windows® 95
+ RAM: 16MB or more
+ Video: 2MB video card, High Color graphics,
+ DirectX 5.0
+ CD-ROM: Quad speed or faster
+ Sound: Windows-compatible sound card
+ Hard Drive Space: 15MB for minimum install;
+ installing DirectX 5.0 requires an
+ additional 15MB
+ Controllers: Keyboard, mouse
+ MOUSE Throughout this manual, certain terms are used to
+ describe various mouse features and operations. This
+TERMINOLOGY terminology should be old hat to anybody used to using
+ Windows 95. For those who are not familiar with
+ Windows 95, brief definitions of the mouse-related
+ terms used in the manual are provided here.
+ Pointer: The onscreen indicator of your mouse posi-
+ tion. In 7th Legion, the mouse pointer shape and function
+ change according to what is happening in the game.
+ Click: A single quick tap on the left mouse button.
+ Double-Click: Two consecutive quick taps on the left
+ mouse button.
+ Right-Click: A single quick tap on the right mouse
+ button.
+ Drag: Holding down a mouse button while moving the
+ mouse to highlight an area or encompass a group of
+ objects on the screen.
+ Page 6 7th Legion User s Manual
+Insert the 7th Legion CD into the CD-ROM drive. INSTALLING
+ THE GAME
+7th Legion uses the Windows 95 Autoplay feature to
+present you with installation and setup options. After
+you place the 7th Legion CD in the CD-ROM drive for
+the first time, the installation window should automati-
+cally appear.
+If the installation window does not automatically
+appear after you place the CD in the CD-ROM drive
+(make sure you give your computer a few seconds to
+read the CD), you can manually start the install process
+by clicking on the Start button of the Windows 95
+taskbar, located in the lower left-hand corner of the
+screen. Click Run, type "D:\Setup" (if your CD-ROM
+drive is assigned to another letter, type that letter
+instead of "D"), and click the OK button. Then follow
+the onscreen instructions.
+You must have Microsoft's DirectX 5.0 installed on
+your computer to play 7th Legion. If you do not already
+have DirectX 5.0 installed, make sure you check the
+box indicating that you want 7th Legion's installer to
+install DirectX for you. If you have an older version of
+DirectX installed, you will be asked to upgrade to
+DirectX 5.0. We recommend that you do not try to run
+7th Legion with an old version of DirectX.
+ 7th Legion User's Manual Page 7
+LOADING THE After you have installed 7th Legion, the Windows 95
+ GAME Autoplay feature will automatically play the intro
+ movie and then display the Main Menu whenever you
+ place the 7th Legion CD in the CD-ROM drive.
+ If the CD is already in the drive, or if Autoplay fails,
+ you can launch the game from the Windows 95 Start
+ menu or by clicking on the 7th Legion desktop shortcut.
+ STARTING The first thing you will see after you have loaded
+ 7th Legion and watched the intro cinematic is the Main
+ THE GAME Menu. Click on whichever option you want to initiate.
+ MAIN MENU This menu contains options for starting, loading and
+ configuring 7th Legion.
+ START NEW GAME
+ Select this option to (you guessed it) start a new game.
+ Next, you will choose which force you want to control.
+ Then, let the battle begin!
+ Forces: You can choose to control
+ either the 7th Legion or the Chosen. Each
+ force has its own building and unit
+ options. Biographies of the forces and
+ descriptions of their respective units
+ can be found in the " 7th Legion
+ Database" section.
+ Page 8 7th Legion User's Manual
+Although the 7th Legion is presumed to be the "good
+guy" force and the Chosen the "bad guy" force, keep in
+mind that war is never so black and white. True, the 7th
+Legion are descendants of those the Chosen left to
+perish on a dying Earth. But from the Chosen's per-
+spective, they did what they were forced to do in order
+to ensure the survival of the human race. If they hadn't
+left the planet when they did, neither they nor those
+they left behind would be alive today.
+One of the keys to victory in war is an unfailing belief in
+the righteousness of the cause you are fighting for.
+Whichever force you choose, embrace your side's cause
+and show no mercy to those who seek to destroy you.
+LOAD SAVED GAME
+Select this option if you want to load a previously
+saved game. From here, you can select one of up to 10
+saved games. Click on the Cancel button if you change
+your mind and want to return to the Main Menu.
+MULTIPLAYER GAME
+Select this option if you want to play an Internet, LAN,
+Modem or Skirmish mode multiplayer game. See
+"Multiplayer Gaming" for comprehensive descriptions
+of these modes, as well as setup and play instructions.
+OPTIONS
+Click here to configure sound and graphics options.
+ "Those who live are
+ those who fight."
+ ' t^"m
+ 55 Victor Hugo
+ 7th Legion User s Manual Page 9
+ EXIT
+ At the risk of insulting your intelligence, select this
+ option to exit 7th Legion.
+ 7th Legion is a fast-paced, action-packed game in which
+ THE split-second decisions and execution often make the
+ LEGION difference between victory and defeat. The game's
+ interface and controls have been designed to help you
+INTERFACE gather information, control your units, and react to the
+ onscreen action as quickly and easily as possible. When
+ a horde of enemy assault chassis are blasting away at
+ your base, the last thing you want to do is fumble around
+ in search of the right controls to command your units to
+ destroy them.
+ Radar Battle Cards
+ Special
+ E
+ Orders —Hs
+ Credits
+ Rank Power Structure/
+ Meter Unit Menu
+ The 7th Legion main game screen lets you observe all of
+ the action on the battlefield and, simultaneously, provides
+ you with status meters, indicators and text messages to
+ keep you abreast of important information and events.
+ Virtually all you need to see and know is here, so you
+ won't have to waste time or interrupt the game action
+ Page 10 7th Legion User s Manual
+switching to and from alternate windows and views.
+You will use the mouse to move the pointer around the
+main game screen to view different areas of the battle-
+field, build structures, issue commands to your units,
+etc. As a general rule, the left mouse button is used to
+indicate view areas, select objects and units, and issue
+movement and attack commands. The right mouse
+button is typically used to deselect units.
+THE VIEWABLE AREA THE FIELD OF
+The action in 7th Legion takes place over a wide range BATTLE
+of land, far more than can be viewed all at once on the
+screen. Consequently, you'll need to scroll around the
+screen to view different portions of the battlefield.
+The entire battlefield is represented on the radar in the
+upper left-hand corner of the main game screen (see the
+"Radar" section below for more info). The white
+rectangular frame on the radar represents the current
+viewable portion of the battlefield. To scroll the view-
+able area, press the arrow keys on the keyboard or use
+the mouse to move the pointer to the edge of the screen
+in the direction you want the view to move.
+To quickly change the view to a particular area of the
+battlefield, use the mouse to position the pointer on the
+radar over the area you want to view and click there.
+The viewable area will instantly switch to the area of
+the battlefield you indicated.
+VISIBILITY
+When you begin a mission, you will notice that the
+majority of the battlefield is hidden beneath a wall of
+dark "fog." This fog indicates the area of the battlefield
+ 7th Legion User's Manual Page 11
+ that you have not yet explored and, therefore, are not
+ yet familiar with. Fogged-in areas are represented in
+ black on the radar. As your units move out over the
+ battlefield, the fog will clear wherever they go. Since
+ the fog may very well be concealing the presence
+ of approaching enemy units, it is a good idea to
+ quickly send some of your low ranking troops
+ out in different directions over the battlefield to
+ reveal as much of the terrain as possible.
+ Note: Fog will roll back in to previously revealed
+ areas if there is no activity in those areas for an
+ extended period of time.
+ RADAR
+ The radar, which can be toggled on and off with the
+ Tab key, provides you with a miniature view of the
+ entire battlefield. You will come to rely on the radar to
+ give you a general idea of what is taking place on the
+ battlefield beyond the current viewable area. The radar
+ features two display modes, which you can switch
+ between depending upon your situation in the game.
+ Standard Display
+ The standard radar display is the default mode and the
+ one you will probably use most often. Black areas on
+ the radar represent unexplored areas of the battlefield
+ that are still cloaked in fog. Colors corresponding to a
+ particular force indicate units or buildings belonging to
+ that force. So if you are currently viewing a remote area
+ of the battlefield and you notice an abundance of en-
+ emy-colored dots surrounding your base on the radar,
+ get back there and beef up your defenses pronto!
+Page 12 7th Legion User s Manual
+Infrared Display
+The infrared display is used to give you an idea of the
+strength and concentration of enemy units. To activate
+the infrared display, hit the I key on your keyboard. All
+enemy units in the explored area will now appear as red
+spots on your radar. The intensity of each spot reflects
+the strength of the unit. The brighter the shade of red,
+the stronger the unit. This display mode is a good way
+to quickly determine where the enemy's strongest units
+are concentrated and which areas are most vulnerable
+to attack. To return to the standard radar, hit the
+I key again.
+Mastering control of your battle units may well be what CONTROLLING
+enables your force to conquer the battlefield instead of YOUR UNITS
+becoming fertilizer for it. In order to react to unpredict-
+able enemy attacks, launch well-executed attacks of
+your own and deal with 7th Legion's fast-paced
+gameplay, it is essential that you memorize the various
+means of controlling your units and practice them until
+they become second nature.
+SELECTING/DESELECTING UNITS
+Individual Unit Selection
+Before you can issue a command to a unit, you must
+first click on the unit to select it. Once a unit is
+selected, it will be framed by a white bounding box
+with a health meter beneath it.
+ 7th Legion User s Manual Page 13
+ Multiple Unit Selection
+ To select a group of units simultaneously, hold down the
+ left mouse button and drag a frame around all the units
+ you want to select. Once the units are framed, release
+ the mouse button. The entire group of units you selected
+ will react to the commands you issue. This method of
+ group selection works best when the units you want to
+ select are all within close proximity of each other. If you
+ want to assemble a group from units scattered around
+ the battlefield, use the shift + click method explained in
+ "Adding Units to a Group Selection."
+ You can also right-click on a unit to select all friendly
+ units in the viewed area that are currently performing
+ the same action as the unit you clicked on.
+ Deselecting Units
+ To deselect a unit, or group of units, right-click on an
+ unoccupied portion of the battlefield.
+ Adding Units to a Group Selection
+ Keep in mind that when you drag a selection frame
+ around a group of units, all of your units within the
+ bounds of the frame you drag will be selected and will
+ react to your command. If you need to be more selec-
+ tive in deciding which units to add to a group, you can
+ add units to the group one at a time by holding down
+ the Shift key and clicking on each unit individually.
+ Removing Units from a Group Selection
+ To remove individual units from a group selection, hold
+ down the Shift key and right-click on each unit you
+ want to remove from the group.
+Page 14 7th Legion User's Manual
+MOVING UNITS
+To move selected units, position the pointer over the
+location you want the units to move to and click there.
+The units will immediately move toward the location
+you indicated and stop when they arrive there. If the
+units are prevented from reaching the intended location
+by impassable terrain, they will move as close to the
+location as possible.
+Terrain
+Battlefield terrain, including water, mountains and
+rubble, affects gameplay in a number of ways. First, "The whole
+you will need to take surrounding terrain into account art of war
+ consists of
+when building structures. Structures must be built on guessing at
+flat terrain, so you'll want to seek out areas with plenty what is on the other side of
+of flat land around when setting up a base. Second, unit the hill."
+movement is impacted by terrain. At times, what looks
+like a short distance between two points may turn out
+to be anything but, as your units are forced to take
+circuitous routes around terrain obstructions. Finally,
+terrain can often play a role in strategic planning if you
+use it to anticipate where enemy units will have to
+travel to get around obstructions.
+Movement Characteristics
+Movement characteristics determine how your units
+ NORIIFML.
+will react if they encounter enemy units en route to
+their destination. To select a movement characteristic
+for your units when you instruct them to move, position
+the pointer over the target location and hold down the
+left mouse button. A menu will appear next to the
+pointer. While keeping the button pressed, position the
+pointer over the movement characteristic you want the
+ 7th Legion User's Manual Page 15
+1^^^^^ ^^^^f^i
+ units to assume while moving. Release the mouse
+ button to issue one of the following commands:
+ Normal: Units move toward their target without regard
+ to enemy units.
+ Defensive: Units will try to avoid and run away from
+ enemy units. They will continue toward their target
+ when they find a clear path.
+ Aggressive: Units will attack any enemy unit that
+ comes into range, but will continue to move toward
+ their target.
+ Cancel: Cancels the movement command.
+ Unit Detachments
+ Unit detachments allow you to save unit selections so
+ you will not have to take the time to find and reas-
+ semble particular selections time and time again.
+ Detachments can be recalled and are ready for action
+ at the touch of a button. You can even assemble
+ detachments made up of units ideally suited for a
+ particular task, so they will be ready to move when you
+ need them.
+ To create a detachment, select the unit or units you
+ want to make into a detachment. While the units are
+ selected, press and hold the Ctrl key, then press a
+ number key (1-0). When you release the keys, the
+ selected units are stored as a detachment and assigned
+ to the number key you indicated. Now, anytime you hit
+ that number key, the units assigned to that detachment
+ will be selected and ready for your commands.
+ Page 16 7th Legion User's Manual
+Most missions in 7th Legion require you to build and BUILDING
+maintain a base. Your base is the home of your headquar- STRUCTURES
+ters and is the key to expanding your forces and develop-
+ing new technology. Because your base is the primary
+supplier of your resources, it is imperative that you defend
+it at all times. Once your base is destroyed, it is only a
+matter of time before your force is a memory.
+The procedure for initiating construction is essentially
+the same for all structures. First, click on the icon for the
+structure you want to build in the Structure/Unit Menu at
+the bottom of the main game screen. If you aren't sure
+what type of structure an icon represents, rest the pointer
+over the icon for a moment and the name of the corre-
+sponding structure will appear. Next, position the pointer
+over the area of the battlefield where you want the
+structure to be built. Your pointer will drag a grid-
+covered "blueprint" of your structure wherever you
+move it. If the structure cannot be placed where your
+pointer rests, the grid will turn red. Reposition your
+pointer until the grid turns beige and click to place the
+structure. If you change your mind about building
+the structure before you have placed it, right-click
+instead to cancel construction.
+Often, building a structure will create new structure
+or unit building options. Structures that create new
+building options are called parent structures, and the
+new options they create are refereed to as spawns.
+For example, after building a barracks (parent), you
+will have the option to generate battle units (spawns
+of the barracks). New structure or unit options will
+appear on the Structure/Unit Menu after the construction
+of a parent structure is complete. You can also click on a
+parent structure on the battlefield at any time to reveal its
+spawn structures or units on the Structure/Unit Menu.
+ 7th Legion User s Manual Page 17
+ HEADQUARTERS
+ If a mission requires you to build a base, you are
+ supplied with a Mobile Base Unit (MBU). Move your
+ MBU to the area on the battlefield where you want to
+ construct your base. Once your MBU is in place,
+ position the pointer over it. If it is possible to build
+ here, "DEPLOY" will appear within the target pointer.
+ (If "DEPLOY" does not appear, your base cannot be
+ built on the location you indicated. Reposition your
+ MBU and try again.) Click on the MBU to deploy your
+ headquarters. This is the command center of your base
+ operations. If you lose this building, you will not be able
+ to build any other structures. Protect it at all costs!
+ For a list of all of the structures you can build in
+ 7th Legion, refer to the "Structures" section of the
+ 7th Legion Database.
+POWER Before you can build additional structures on your base,
+ you must first build a power plant. Power plants supply
+ the energy necessary to run base operations.
+ The power meter to the left of the Structure/Unit Menu
+ shows the status of your power supply. This meter
+ represents the ratio of power available to consumption/
+ need. The yellow area indicates how much power is
+ being used. The blue area indicates power available.
+ Every structure that you build increases the drain
+ on your power supply. If you overtax your power
+ resources, you will receive an insufficient power
+ message and your operations will slow to a crawl, so
+ monitor your power meter carefully. If it starts getting
+ low, build more power plants to increase your
+ power reserve.
+ Page 18 7th Legion User's Manual
+After you have built a barracks, you will gain the ability GENERATING
+to generate battle units. To do so, first click on your BATTLE UNITS
+barracks to reveal the available battle units in Structure/
+Unit Menu. Next click on the icon of the unit you wish
+to generate or on one of the numbers on the lower
+portion of the icon to generate multiple units. A progress
+meter will appear above the icon indicating the time
+remaining before generation is complete. Once the unit
+has been generated, it will emerge from the barracks
+ready for action. If you clicked on a number to generate
+multiple units, unit generation will continue until the
+indicated number of units has emerged from the
+barracks or until you run out of money. If you run out
+of credits, production will be halted until more funds
+arrive. If you click and hold the unit icon, the cursor
+will change to the "DEPLOY" cursor, You can then
+place the units anywhere on the map, and the new units
+will move to that location once built.
+Click on the progress bar to halt production. Right-click
+on the bar to cancel production. This is useful if you
+change your mind about building a unit.
+As you progress in the game, you will gain the technol-
+ogy and resources to generate more advanced battle units
+and vehicles. Depending on which type of unit you want
+to generate, you may first have to build different parent
+structures. Once you have done so, the method for
+generating new units is the same as that described above.
+For a description of all of the units in the game, refer to
+the sections "Troops," "7th Legion Units" and "Chosen
+Units" in the 7th Legion Database.
+ 7th Legion User s Manual Page 19
+ DEVELOPING In certain missions, you will have the opportunity to
+ build a hi-tech lab. Your researchers will use this
+ NEW facility to develop upgrades to your systems and hard-
+TECHNOLOGY ware, and to create powerful new weapons and tools.
+ Each time you upgrade a technology, it raises the level
+ of that technology by one. For example, when you first
+ build a power plant, it starts out at level zero. If you
+ subsequently build a hi-tech lab and implement the
+ development of a power plant upgrade, your power
+ plant will be elevated to level one and will operate
+ more efficiently. You can upgrade individual technolo-
+ gies multiple times, raising each one to a maximum of
+ level five, but each time you implement an upgrade, the
+ cost for a subsequent upgrade will double.
+ For a description of all of the technology upgrades and
+ innovations available with a hi-tech lab, refer to the
+ "Hi-Tech Lab Upgrades and Creations" section of the
+ 7th Legion Database.
+ BETTING Running a war ain't cheap. To fund the building of
+ structures, creation of units, and development of new
+ PAID technology, you are going to need money.
+ Your budget comes to you in the form of credits that
+ are automatically doled out at a regular interval and
+ added to your credit bank. Your total credits are indi-
+ cated in the lower left portion of the main game screen.
+ Each time you build a new structure, create a new unit
+ or develop new technology, the cost of doing so will be
+ deducted from your credit bank.
+ Page 20 7th Legion User s Manual
+The number of credits that you receive at each budget
+allocation period depends on your current military
+rank. (See '"Nice Work, Soldier'—Moving up in Rank'
+for an explanation of military rank.) In a nutshell, the
+higher your rank, the greater your budget.
+ "You know what I think about violence. For me it is
+ profoundly moral—more moral than compromises and
+ transactions."
+At the start of each mission, you will be presented with WE'RE GOING
+a mission objective screen. Here, you will learn what
+you need to accomplish to successfully complete the
+ TD WAR!
+mission and move on. Once play has begun, you will MISSION
+frequently receive special orders. These are time- OBJECTIVES
+limited sub-missions, independent of your primary
+mission objective. Successful completion of special
+orders will generate extra credits or a new base for your
+force. Special order objectives appear along the left-
+hand side of the main game screen below the radar.
+Since this is war, and not an exercise in peace and ATTACKING
+diplomatic relations, most of your missions will involve ENEMY UNITS
+attacking enemy units and structures. To do this, select & STRUCTURES
+a unit or group of units from your force and then click
+on the enemy unit or structure you want to attack. The
+selected units will move into firing range and fire upon
+their target. They will continue firing upon their target
+until they have destroyed it, are destroyed themselves
+or are issued new orders.
+ 7th Legion User s Manual Page 21
+CRATES
+Crates left behind by troops are often encountered on
+the battlefield. Crates contain special power-ups that
+can greatly enhance your units' capabilities. To open a
+crate, move one of your units, or a group of units, over
+it. The effect of the crate will be immediate and can
+affect all units in the immediate vicinity. If a crate
+contains a power-up that results in an alteration of unit
+capability, a small letter indicative of the power-up will
+appear above all units affected by it and will remain
+there for the duration of the effect.
+ENEMY ATTACK CASUALTIES
+As you are plotting strategies and dispatching units to DF WAR
+destroy the enemy, have no doubt, the enemy is doing
+the very same thing with your destruction in mind. As a
+result, sooner or later (usually sooner), you are bound
+to come under enemy attack. Enemy units will fire
+upon your units and your structures in an attempt to
+wipe your force from the face of the planet. Enemy
+forces can also use battle cards, bombs and crates
+against you.
+The radar is your best defense against enemy attack.
+Keep an eye on the progress of enemy units (indicated
+by enemy-colored dots) on your radar. When you
+notice a concentration of enemy unit activity, dispatch
+your own units to deal with them before they gain the
+upper hand. Pay special attention to enemy activity
+near your base. Once enemy forces have converged on
+your base, it will be very hard to stop them if you are
+not prepared.
+ 7th Legion User s Manual Page 23
+Hospitals
+Once you have built a hospital, select the unit you want
+to heal and move it to the front door of the hospital.
+The unit will be treated and restored to full health.
+Repair Bays
+Once you have built a repair bay, select the unit you
+want to repair and move it to the repair platform. The
+vehicle will be worked on and restored to the best of
+your combat engineers' capabilities. Critically damaged
+vehicles and assault chassis will not have their turrets
+or torsos repaired.
+Priests
+Priests mysterious figures that sometimes emerge from
+the Deadlands to join the army of their choice, can
+bless units, healing their wounds. To bless a unit, select
+a priest and move the cursor over another unit; the
+cursor changes to "bless." Click to bless (heal) the unit.
+STRUCTURE DAMAGE AND LOSS
+Enemy units will launch attacks on your base and its
+structures to bring your force to its knees. Each struc-
+ture can absorb a limited amount of damage before it is
+damaged beyond repair. If you click on a structure, a
+status meter will appear beneath it indicating its present
+structural integrity. Once the status meter turns com-
+pletely black, the structure will collapse.
+ 7th Legion User s Manual Page 25
+Your military rank, as well as that of your troops, is a "NICE WORK,
+reflection of your experience and success in battle.
+There are a total of six player ranks and four unit ranks SOLDIER"—
+attainable (see list below). When you first start out, MOVING UP IN
+your rank is sergeant. As you gain experience and
+overcome the enemy in battle, you will move steadily
+ RANK
+up in rank.
+Your current rank is indicated by the revolving rank
+symbol in the lower left portion of the main game screen.
+Your rank as a commander is determined by the PLAYER RANKS
+number of enemy kills you have achieved with your
+units. As your rank increases, so does the number of
+credits allotted to your command for each budget
+allocation period.
+The ranks a player can achieve are (from lowest to
+highest):
+1. Sergeant
+2. Sergeant Major
+3. Lieutenant
+4. Major
+5. Colonel
+6. General
+Your units can move up in rank too, depending on each UNIT RANKS
+unit's performance in battle. As a unit moves up in
+rank, it moves faster, does more damage to the enemy
+and absorbs less damage when hit.
+ 7th Legion User s Manual Page 27
+Hit the Esc key at any time during the game to halt the OPTIONS
+game and bring up the Options Menu. This menu will
+provide you with the following choices:
+ MENU
+CONTINUE GAME
+Resumes game at the point you were at when you hit
+the Esc key.
+OPTIONS
+Lets you adjust the game's sound and video options.
+SAVE GAME
+Select this option if you want to save the game at the
+point you were at when you hit the Esc key. Type a
+name for your saved game in one of the open slots (or
+type over an occupied slot to overwrite a previously
+saved game) and hit Enter to save your game.
+You might want to save your game before attempting a
+risky attack, when entering into a dangerous situation
+or at any point you feel would be a good place to
+resume play from if you are defeated and need to
+reload the mission.
+LOAD GAME
+If you want to abandon the game you are currently
+playing and load a previously saved game, select this
+option. From here, you can select one of up to 10 saved
+games.
+ 7th Legion User's Manual Page 29
+number of your opponent's modem to connect to his
+computer (or vice versa if your opponent is the player
+initiating the telephone call) when prompted.
+INTERNET UDP
+7th Legion supports multiplayer games over the Internet.
+All players need an Internet connection with Winsock
+protocol and a 28.8kps or faster modem. To gather
+players for a multiplayer game over the Internet, take the
+following steps:
+1. All players log on to the Internet
+2. The hosting player selects Run from his Windows 95
+Start menu and types the following in the Run window:
+WINIPCFG.EXE. This will bring up a window indicat-
+ing the hosting player's IP address. Make sure to select
+the correct network adapter.
+3. The hosting player contacts the joining players (via
+telephone, e-mail, etc.) and gives them his IP address.
+4. All players launch 7th Legion and select Multiplayer
+Game from the Main Menu.
+5. The hosting player selects Create Game (Internet
+UDP) from the next screen. The joining players select
+Join Game (Internet UDP), and then enter the IP address
+of the host and click on Connect.
+SKIRMISH
+This is a single-player game in which you can play
+against artificial intelligence (computer-controlled)
+players on any of the multiplayer maps. This option does
+not require a network or Internet connection.
+ 7th Legion User s Manual Page 31
+Environment: Determines whether the game takes
+place during the day or at night.
+Technology Level: There are three technology levels to
+choose from:
+Hi-tech includes all of the building and technology
+options in the game.
+Medium-tech omits the mine and super gun emplace-
+ment options as well as some of the upgrade options in
+your Hi-Tech Lab.
+Low-tech omits the mine, super gun emplacement and
+robot hangar options. Hi-Tech Labs are only able to
+upgrade their power.
+Credits: This determines the number of credits each
+player starts out with. The highest starting credit
+amount is 75,000.
+Game Type: Determines which multiplayer mode you
+wish to play.
+Normal
+A battle for control of the planet, in which the only
+victory is the total destruction of the enemy. The last
+force standing wins.
+ 7th Legion User s Manual Page 33
+VTH LEGION II
+ ^H^^
+ While some of the Chosen feel sympathy for those left
+ behind on Earth, virtually all believe they did what had
+ to be done to ensure the survival of the human race.
+ The Chosen believe that the collapse of the Earth's
+ ecosystem was the inevitable result of humanity's
+ surmounting of natural selection. The weak and inferior
+ were not only surviving, but overpopulating the planet
+ instead of being culled out as nature had intended.
+ Now, they will do what nature is no longer capable of
+ doing itself, rid the Earth of the weak to make room for
+ the strong...
+ THE 7TH LEGION
+ Earth in the wake of the Planetary Evacuation Program
+ was a virtual wasteland. Choked with disease and
+ pollution, the planet exacted its fatal retribution on
+ millions of those left behind by the Chosen. It took
+ centuries for the planet's ecosystem to begin to heal
+ and for the humans who managed to survive to
+ rebuild their decimated civilization.
+ The 7th Legion is the most powerful of the seven
+ major military legions on Earth. They are the
+1 descendants of those left behind by the Chosen
+ hundreds of years ago—those deemed inferior by
+ the P.E.P. Implementation Council and those lacking
+ the money to buy their way into the program.
+ The 7th Legion is comprised of strong, tenacious
+ survivors, bred from centuries of hardship and toil
+ on a planet that had become mercilessly harsh
+ toward its inhabitants. They take great pride in their
+ 7th Legion User's Manual Page 37
+y insurmountable condi- The slavens favored by the 7th Legion were acquired
+rebuilt a dying civilization, from the warlords of the Deadlands. The warlords'
+d resourcefulness to be a selective breeding has made these animals extremely
+perior Chosen. obedient and responsive to warfare training.
+; Chosen and their aban- Mortar Unit Price: 1,600
+ieen passed down from These veteran soldiers carry powerful mortar weapons
+i have fueled the 7th which make them particularly useful for assaulting
+testers' would-be execu- buildings and walls.
+igilant for the Chosen's
+ntion of ever giving up the Commander Price: 2,000
+ s of their ancestors. Commanders are cybernetically enhanced soldiers, often
+ with implants to the eyes, artificial lungs and more. They
+:ement armor. This exo- are fearless and inspirational to their troops, never wear-
+;ircuit connections to the ing helmets so they can stare down insubordinates and
+enhances all his muscular get a clear view of their dying enemies.
+n systems enhance the
+ armor itself is capable of Commanders carry rocket launchers, which are far
+rom a phased laser rifle. more effective against vehicles than are PL rifles.
+ Price: 500 Priest Price: 2,200
+;d with phased laser rifles These mysterious figures emerge from the Deadlands
+ bio-enhancement armor to join the army of their choice. They fear no man and
+eak, their speed and the serve their chosen force with dedication. Rumored to
+iles make them capable of be born from legendary nomadic tribes still living in
+ attacking in groups. the Deadlands, it is not known why they choose to
+ become involved in the struggle for control of Earth.
+ Price: 1,500 Priests can bless units, healing their wounds. To bless a
+reeds: unit, select a priest, move the cursor over another unit
+y engineered a particularly and the cursor changes to "bless." Click to bless (heal)
+ybernetic enhancements and the unit and Priests must draw on their own vitality
+ whenever they use their power to heal. Consequently,
+ 7th Legion User s Manual Page 39
+ priests suffer a temporary decline in health each time they ASSAULT CHASSIS
+ bless a unit. Blessing too many units can kill a priest.
+ Dominator
+ A versatile, well-armored,
+ Priests can also invoke a special attack utilizing the
+ mounted rapid-fire lasers. 1
+ effect of a battle card. To activate this attack, drop a
+ mainly for destroying defei
+ card onto the priest, and then attack something (or hold
+ eration of structures to unit
+ down the Ctrl key and attack the ground). The energy
+ of the card will be released in a special attack.
+ Venom Typhoon
+CHOSEN UNITS TANKS This spider-inspired unit c
+ Marauder Price: 3,000 pack which saturates enen
+ A light tank, armed with twin low-caliber assault "venom missiles." This A
+ cannons. Weak armor, but its speed and rapid fire the reload mechanism pre;
+ capability make it versatile when engaging foot troops.
+ Obliterator
+ Oppressor Price: 4,000 An improvement over the
+ A medium tank, designed for engagements with other enhanced armor and addit
+ armored vehicles. This tank sports a single high-caliber firepower. The presence o
+ cannon with armor-piercing rounds. Good for destroy- heart of the enemy and bo
+ ing structures and enemy vehicles. troops around it.
+ Avenger Price: 3,800
+ The long-range assault cannon of this tank is excellent Pyroclast
+ at doling out heavy damage from a distance; however, A modification of the orig
+ it is not turret mounted and the vehicle must stop to this unit has been turned ii
+ attack. If well protected, the Avenger can cause flame-throwing weapon. I
+ enormous damage to unsuspecting targets. Its poor accurate lasers for elimina
+ armor makes it ill-suited for close range combat. a distance.
+ Annihilator Price: 7,000
+ A heavy tank, armed with twin heavy-assault cannons.
+ This tank is able to absorb large amounts of damage
+ and break through to the core of a battle.
+ Page 40 7th Legion User's Manual
+line in health each time they ASSAULT CHASSIS
+y units can kill a priest.
+ Dominator Price: 5,750
+ A versatile, well-armored, accurate unit, with twin arm-
+cial attack utilizing the
+ mounted rapid-fire lasers. These ACs were designed
+ivate this attack, drop a
+ mainly for destroying defending units, leaving the oblit-
+i attack something (or hold
+ eration of structures to units better suited for the task.
+: the ground). The energy
+n a special attack.
+ Venom Typhoon Price: 8,000
+ This spider-inspired unit carries on its back a launcher
+ Price: 3,000 pack which saturates enemy targets with long-range
+n low-caliber assault "venom missiles." This AC needs to be defended while
+> speed and rapid fire the reload mechanism prepares it to fire again.
+/hen engaging foot troops.
+ Obliterator Price: 7,500
+ Price: 4,000 An improvement over the Dominator, this AC features
+r engagements with other enhanced armor and additional lasers for extreme
+sports a single high-caliber firepower. The presence of this unit strikes fear in the
+rounds. Good for destroy- heart of the enemy and boosts the morale of all friendly
+licles. troops around it.
+ Price: 3,800
+MI of this tank is excellent Pyroclast Price: 8,000
+Tom a distance; however, A modification of the original Venom Typhoon design,
+he vehicle must stop to this unit has been turned into a devastating close-range
+Avenger can cause flame-throwing weapon. It is also armed with very
+scting targets. Its poor accurate lasers for eliminating troops and vehicles from
+close range combat. a distance.
+ Price: 7,000
+in heavy-assault cannons,
+rge amounts of damage
+; of a battle.
+ 7th Legion User s Manual Page 41
+ Faith Hammer
+TTH LEGION TANKS
+ The most devastating tanl
+ UNITS Crusader Price: 3,000 design is armed with thre<
+ A light tank that sacrifices better armor for speed. Its other unit can survive a 01
+ payload is a single medium-penetration shell weapon. Faith Hammer. The prese:
+ This tank was the mainstay of the 7th Legion's forces inspire lesser units.
+ in the inter-legion battles for the remnants of the Earth
+ and is still favored by many tank commanders. Only experienced tank co
+ units, and each is officiall
+ Crucifier Price: 4,000 the priesthood.
+ This Medium tank is one of the newer, more devastat-
+ ing designs developed by the emerging technology
+ ASSAULT CHASSIS
+ advancement division of the 7th Legion. Featuring twin
+ Inquisitor
+ destructor cannons, this tank can rip lighter units and
+ Armed with high-energy
+ buildings to shreds.
+ a fearsome sight on the be
+ rate of fire (inferior to the
+ Tormentor Price: 4,000
+ not an issue for 7th Legio
+ This long-range artillery tank features a turret-mounted
+ deliver crushing blows rai
+ •I i barrel, allowing the tank commander to maneuver
+ The controllers of these u
+ freely while launching shells into enemy ranks.
+ underfoot. The Inquisitor
+ Although unable to deliver as much damage as the
+ ing away tank armor very
+ Chosen's fixed-barrel Avenger, the Tormentor equals
+ the Avenger in range and bests it in maneuverability.
+ Revelator
+ This banner-carrying AC,
+ Purifier Price: 7,000
+ twin-laser system, is also
+ This unit is armed with a hi-tech artillery device, the
+ deliver extra punch in coi
+ workings of which have never been revealed to its
+ armor and a heat dissipati
+ commanders. The single barrel sends strikes of light-
+ power to its lasers. This u
+ ning against its foes making it a truly devastating
+ Legion troops and is ofter
+ weapon when engaging enemy units. However, it is not
+ ing strikes into the heart c
+ very effective against buildings.
+ To command a Purifier is an honor second only to
+ commanding a Faith Hammer tank.
+ Page 42 7th Legion User s Manual
+ Faith Hammer Price: 7,500
+ The most devastating tank on the battlefield, this new
+ Price: 3,000 design is armed with three destructor cannons. No
+;tter armor for speed. Its other unit can survive a one-on-one battle with the
+)enetration shell weapon, Faith Hammer. The presence of this tank in battle will
+if the 7th Legion's forces inspire lesser units.
+ the remnants of the Earth
+tank commanders. Only experienced tank commanders are given these
+ units, and each is officially ordained into the order of
+ Price: 4,000 the priesthood.
+:he newer, more devastat- •
+ emerging technology
+ ASSAULT CHASSIS
+7th Legion. Featuring twin
+ Inquisitor Price: 5,750
+ can rip lighter units and
+ Armed with high-energy lasers on each arm, this unit is
+ a fearsome sight on the battlefield. Its relatively low
+ rate of fire (inferior to the Chosen's Dominator unit) is
+ Price: 4,000
+ not an issue for 7th Legion commanders, who prefer to
+c features a turret-mounted
+ deliver crushing blows rather than many weaker strikes.
+imander to maneuver
+ The controllers of these units love to crush the enemy
+ into enemy ranks.
+ underfoot. The Inquisitor's lasers are capable of melt-
+3 much damage as the
+ ing away tank armor very quickly.
+sr, the Tormentor equals
+ts it in maneuverability.
+ Revelator Price: 7,500
+ This banner-carrying AC, armed with the standard
+ Price: 7,000
+ twin-laser system, is also armed with missile packs, to
+ech artillery device, the
+ deliver extra punch in combat. It features enhanced
+:r been revealed to its
+ armor and a heat dissipation system that increases the
+•el sends strikes of light-
+ power to its lasers. This unit is an inspiration to the 7th
+it a truly devastating
+ Legion troops and is often used to lead deep penetrat-
+ly units. However, it is not
+ ing strikes into the heart of the enemy force.
+honor second only to
+r tank.
+ 7th Legion User s Manual Page 43
+ The Nova Price: 7,600 Power Plant
+ This unit delivers a volley of missiles, tightly focused This structure supplies po
+ on their target. The Nova's range is inferior to the and manufacturing operat
+ Redeemer's but able to destroy vehicles and buildings you will probably need to
+ with ease. The Nova is well armored for close engage- to accommodate increasiri
+ ments but less accurate than laser-equipped units. power plants are destroye<
+ power to run your base op
+ Redeemer Price: 8,000
+ This unit's payload is an enormous, extremely powerful
+ rocket. However, because of the size of these projec-
+ tiles, the reload time is very slow. The damage and
+ range of this AC make it a dangerous threat to even the
+ most well-defended base. A group of Redeemers can
+ destroy buildings in a single strike. The unit moves
+ quickly but has very weak armor.
+STRUCTURES Headquarters Cost: 0 Barracks
+ The springboard for all of your structures, this building Build a barracks to prodm
+ is created when you deploy your Mobile Base Unit. available from the barracl
+ You must first build a headquarters before you will be
+ able to build any other structures.
+ Wall
+ Erect walls to protect you
+ Page 44 7th Legion User's Manual
+ Price: 7,600 Power Plant Cost: 1,500
+missiles, tightly focused This structure supplies power for all of your structures
+nge is inferior to the and manufacturing operations. As your force grows,
+>y vehicles and buildings you will probably need to build multiple power plants
+rmored for close engage- to accommodate increasing power demands. If your
+aser-equipped units. power plants are destroyed, you will not have sufficient
+ power to run your base operations effectively.
+ Price: 8,000
+mous, extremely powerful
+;he size of these projec-
+low. The damage and
+igerous threat to even the
+roup of Redeemers can
+trike. The unit moves
+nor.
+ Cost: 0 Barracks Cost: 1,500
+ir structures, this building Build a barracks to produce infantry units. The units
+)ur Mobile Base Unit, available from the barracks vary from level to level.
+arters before you will be
+res.
+ Wall Cost: 150
+ Erect walls to protect your base from enemy troops.
+ 7th Legion User s Manual Page 45
+ Hospital Cost: 5,000 Robot Hangar
+ Wounded infantry units can be treated in a hospital so Robot hangars produce ass<
+ they can return to the battlefield and continue to fight. high-powered ballistic attac
+ tanks to shrapnel.
+ Repair Bay Cost: 6,000
+ Repair bays are used to repair damage to vehicles and Hi-Tech Lab
+ assault chassis. Build a hi-tech lab to devel
+ and hardware, and to create
+ tools.
+ Vehicle Factory Cost: 10,000
+ With a vehicle factory, you can build a variety of tanks
+ to unleash concussive firepower on enemy troops and
+ structures.
+Page 46 7th Legion User s Manual
+ Cost: 5,000 Robot Hangar Cost: 20,000
+2 treated in a hospital so Robot hangars produce assault chassis for devastating
+Id and continue to fight. high-powered ballistic attacks that can reduce enemy
+ tanks to shrapnel.
+ Cost: 6,000
+damage to vehicles and Hi-Tech Lab Cost: 12,000
+ Build a hi-tech lab to develop upgrades to your systems
+ and hardware, and to create powerful new weapons and
+ tools.
+ Cost: 10,000
+n build a variety of tanks
+•er on enemy troops and
+ 7th Legion User s Manual Page 47
+ STATIONARY Stationary weapons are used primarily to provide extra Upgrade Ba
+ WEAPONS defense for your base. Power Upgrade
+ Mine Cost: 250
+ Plant mines to make enemy vehicles' next moves Laser Upgrade
+ their last.
+ Gun Emplacement Cost: 1,250 Shell Upgrade
+ Gun emplacements can cut down would-be-attackers in
+ their tracks, freeing your troops up for other battles.
+ Rifle Upgrade
+ Super Gun Emplacements Cost: 3,250
+ Same thing as a standard gun emplacement, only much
+ more powerful. Body Armor Upgrade
+CONSTRUCTION You will not be able to build certain buildings until a
+ LEVELS parent building is constructed. To move on to the next Armor Plating Upgrade
+ level of construction, you must first build the italicized
+ building from the preceding level.
+ Level 1 Level 2 Level 3 Creation Ba
+ Mobile Base Unit Power Plant Barracks Bomb
+ Wall
+ Level 4 Level 5 Stealth
+ Vehicle Factory Hi-Tech Lab
+ Hospital Repair Bay
+ Gun Emplacement Robot Hangar Reveal Map
+ Mine
+ Super Gun Emplacement
+ Page 48 7th Legion User s Manual
+primarily to provide extra Upgrade Base Cost Function HI-TECH LAB
+ Power Upgrade 1,000 Improves power UPGRADES AND
+ plant efficiency. CREATIONS
+ Cost: 250
+chicles' next moves Laser Upgrade 4,000 Improves laser
+ weapon
+ efficiency.
+ Cost: 1,250 Shell Upgrade 3,500 Improves shell
+jwn would-be-attackers in weapon
+ps up for other battles. efficiency.
+ Rifle Upgrade 2,000 Improves rifle
+ Cost: 3,250 efficiency.
+emplacement, only much
+ Body Armor Upgrade 1,200 Improves body
+ armor efficiency.
+certain buildings until a
+. To move on to the next Armor Plating Upgrade 1,750 Improves
+st first build the italicized armor plating
+svel. efficiency.
+el 2 Level 3 Creation Base Cost Function
+'er Plant Barracks Bomb 50,000 Creates a
+ Wall bomb crate.
+el 5 Stealth 25,000 Creates a
+"ech Lab stealth crate.
+air Bay
+ot Hangar Reveal Map 22,500 Clears the fog of
+e war from the
+;r Gun Emplacement map and radar.
+ 7th Legion User's Manual Page 49
+BATTLE CARDS Battle cards can be used to turn the tide of battle by 9. Skill Strip
+ enhancing the capabilities of your force or doling out big Strips all power-ups anc
+ time damage to the enemy. Level 2 and Level 3 cards are units.
+ more powerful versions of their Level 1 counterparts.
+ 10. Battle Rage
+ 1. Machine Curse For a short time, the affi
+ Causes enemy units to move, turn and fire in slow ously. The targeted fore
+ motion. at a more rapid pace. He
+ rate also results in dams
+ 2. Battle Psychosis
+ Enables affected units to temporarily move and shoot 11. Domination
+ at twice their normal rate of speed. Steals control of the tarj
+ other enemy units in the
+ 3. Battle Psychosis Level 2
+ Level 2 lasts longer. 12. Immolation
+ Incinerated targeted uni
+ 4. Battle Psychosis Level 3 effective against vehicle
+ Level 3 lasts even longer. 13. Immolation Level 2
+ 5. One in a Million
+ Enables any one unit to kill any other unit anywhere 14. Doom Fist
+ on the map with its next attack. Damages all units of th<
+ up walls in a multiplaye
+ 6. God Hammer
+ Pounds targeted units with a divine hammer strike. 15. Doom Fist Level 2
+ Especially effective when played on vehicles.
+ 7. God Hammer Level 2 16. Chaos
+ Level 2 is a stronger version. Causes affected units to
+ attacking everything in i
+ 8. Equilibrium
+ other, with indiscrimina
+ All units in the game get the same power-ups and
+ special abilities (except bombs) as the target unit.
+ 17. Chaos—One Unit
+ Page 50 7th Legion User s Manual
+n the tide of battle by 9. Skill Strip
+row force or doling out big Strips all power-ups and specials from affected
+vel 2 and Level 3 cards are units.
+ir Level 1 counterparts.
+ 10. Battle Rage
+ For a short time, the affected units fire continu-
+>ve, turn and fire in slow ously. The targeted force can also build and repair
+ at a more rapid pace. However, this hypermetabolic
+ rate also results in damage to all affected units.
+:emporarily move and shoot 11. Domination
+ofspeed. Steals control of the targeted enemy unit and all
+ other enemy units in the immediate vicinity.
+ 12. Immolation
+ Incinerated targeted units, although it is not as
+ effective against vehicles.
+ 13. Immolation Level 2
+11 any other unit anywhere 14. Doom Fist
+ttack. Damages all units of the targeted force. Also blows
+ up walls in a multiplayer game.
+i a divine hammer strike, 15. Doom Fist Level 2
+played on vehicles.
+ 16. Chaos
+ Causes affected units to go temporarily berserk,
+ attacking everything in their paths, including each
+ other, with indiscriminate fury.
+ic same power-ups and
+ombs) as the target unit.
+ 17. Chaos—One Unit
+ 7th Legion User's Manual Page 51
+ 18. Displacement Warp 25. Holy Blessing
+ Warps all units within a limited radius of the target Makes affected units imi
+ to the target's base.
+ 19. Skill Steal 26. Holy Blessing, One Uni
+ Steals all power-ups from the target unit and dis- Makes one unit immune
+ tributes them to the card-dealing force's units in the
+ vicinity and units currently selected. 27. Summon Darkness
+ Plunges the targeted fon
+ 20. Damage Transfer
+ Adds up the total current damage of the 28. Summon Blizzard
+ card-dealing force and inflicts it upon the targeted Freezes affected units. \
+ force's units and buildings. killed with a single shot
+ 21. Life Siphon 29. Summon Apparition
+ Heals all units of the card-dealing force by sucking Summons a small army
+ the health from the enemy target and all other to fight on the side of th
+ enemy units in the immediate vicinity. these spectral units disaj
+ single hit.
+ 22. Deception
+ Allows the affected units to disguise themselves 30. Summon Dark Legion
+ with the uniform color of the enemy. Drop the card Summons a number of
+ on your own units and then select an enemy unit to and commanders to con
+ adopt its color. the card-dealing force.
+ 23. Infiltrate 31. Armageddon
+ Captures whichever enemy building, except the Destroys all units and st
+ base, that the card is dropped on. for bases, which are red
+ of collapse.
+ 24. Surveillance Jam
+ Scrambles the target force's radar for two minutes.
+Page 52 7th Legion User's Manual
+ 25. Holy Blessing
+imited radius of the target Makes affected units immune to all card effects.
+ 26. Holy Blessing, One Unit
+i the target unit and dis- Makes one unit immune to all card effects.
+dealing force's units in the
+ly selected. 27. Summon Darkness
+ Plunges the targeted force into darkness (hi-detail).
+ damage of the 28. Summon Blizzard
+flicts it upon the targeted Freezes affected units. While frozen, units can be
+is. killed with a single shot.
+ 29. Summon Apparition
+i-dealing force by sucking Summons a small army of ghostly Assault Chassis
+y target and all other to fight on the side of the targeted force. However,
+diate vicinity. these spectral units disappear after taking a
+ single hit.
+ to disguise themselves 30. Summon Dark Legion
+'the enemy. Drop the card Summons a number of "dead" machine gunners
+en select an enemy unit to and commanders to come back to life to fight for
+ the card-dealing force.
+ 31. Armageddon
+ly building, except the Destroys all units and structures on the map, except
+iped on. for bases, which are reduced to within one point
+ of collapse.
+e's radar for two minutes.
+ 7th Legion User s Manual Page 53
+ 32. Blast Fog 41. Reveal
+ Clears fog from a portion of the battlefield Reveals units hidden fi
+ revealing the terrain below.
+ 42. Steal Credits
+ Steals approximately 2
+ 33. Blast Fog Level 2 credits.
+ 43. Steal Credits Level 2
+ 34. Holy Curse Steals approximately 5
+ Curses a group of units, so that they can't be affected credits.
+ by beneficial cards can be played upon them.
+ 44. Demolition
+ 35. Holy Curse Level 2 Destroys any targeted t
+ Temporarily prevents the targeted player from using
+ any of his cards. 45. System Disruption
+ Temporarily disrupts n
+ 36. Balance building. The building
+ Takes all credits and distributes them evenly among rather than those selec
+ their forces.
+ 46. Reveal Cards
+ 37. Teleport Reveals another force'
+ Allows targeted units to move instantaneously to on any unit of that fore
+ the next selected destination.
+ 47. Re-deal
+ 38. Stealth Deals the targeted fore
+ Makes targeted units temporarily invisible to the enemy.
+ Proximity to enemy units, low health and offensive 48. Fate
+ actions will have a negative impact on Stealth. Re-deals all players' cj
+ 39. Stealth Level 2 49. Steal Card
+ Reveals another player
+ from then on, allows yi
+ 40. Stealth Level 3 player's cards and play
+Page 54 7th Legion User's Manual
+ 41. Reveal
+of the battlefield Reveals units hidden from view by Stealth.
+w.
+ 42. Steal Credits
+ Steals approximately 25 percent of target force's
+ credits.
+ 43. Steal Credits Level 2
+ Steals approximately 50 percent of target force's
+) that they can't be affected credits.
+ played upon them.
+ 44. Demolition
+ Destroys any targeted building, except for bases.
+targeted player from using
+ 45. System Disruption
+ Temporarily disrupts manufacturing in the targeted
+ building. The building will produce a random unit
+ibutes them evenly among rather than those selected.
+ 46. Reveal Cards
+ Reveals another force's current cards when dropped
+nove instantaneously to on any unit of that force.
+ion.
+ 47. Re-deal
+ Deals the targeted force a new set of cards.
+rarily invisible to the enemy,
+aw health and offensive 48. Fate
+ impact on Stealth. Re-deals all players' cards.
+ 49. Steal Card
+ Reveals another player's cards and, at any point
+ from then on, allows you to steal one of that
+ player's cards and play it instead of one of your
+ 7th Legion User s Manual Page 55
+ own. Once you have played one of the other
+ player's cards, his cards are hidden from you again.
+ The target player of Steal Card can be changed by
+ playing Reveal Card on a different player to redi-
+ rect the effect of Steal Card to him. You might want
+ to do this, if you don't want to use any of the cards
+ held by the originally targeted player.
+ 50. Bless Production
+ Temporarily increases the speed of production of
+ the targeted building type. Will also remove the
+ effect of any curse applied to that building. Cu
+ 51. Curse Production
+ Temporarily decreases the production speed of the
+ Su
+ targeted building type.
+ 52. Joker
+ ??? (Play it and see.)
+Page 56 7th Legion User s Manual
+;d one of the other
+re hidden from you again.
+Card can be changed by
+different player to redi-
+•d to him. You might want
+nt to use any of the cards
+eted player.
+ speed of production of
+ Will also remove the
+1 to that building. CUSTOM
+: production speed of the
+ SUPPORT
+^^0^^^
+ If you have any questions about 7th Legion or any CompuServe:
+ of our other products, please contact MicroProse To reach our Customer Sup{
+ Customer Support at: Publishers B Forum, type G(
+ prompt. Then select "Sectio
+ • MicroProse addition to posting and read
+ 2490 Mariner Square Loop download files from the "Li
+ Alameda, CA 94501 electronic mail to Customer
+ ATTN: Customer Support
+ World Wide Web:
+ • (510)522-1164 You can read the latest news
+ 9:00 AM to 5:00 PM Pacific Time MicroProse on our World \\
+ Monday through Friday www.microprose.com. Dow
+ site at ftp.microprose.com. 5
+ • Fax Customer Support at suppoi
+ (510)522-9357
+ • World Wide Web
+ www.microprose.com
+ • E-mail
+ support@microprose. com
+ Page 58 7th Legion User s Manual
+mt 7th Legion or any CompuServe:
+contact MicroProse To reach our Customer Support board in the Game
+ Publishers B Forum, type GO GAMBPUB at any "!"
+ prompt. Then select "Section 2" for MicroProse. In
+ addition to posting and reading messages, you can
+ download files from the "Libraries (Files)" menu. Send
+ electronic mail to Customer Support at 76004,2223.
+ World Wide Web:
+ You can read the latest news and information about
+Time MicroProse on our World Wide Web page at
+ www.microprose.com. Download files from our FTP
+ site at ftp.microprose.com. Send electronic mail to
+ Customer Support at support@microprose.com.
+ 7th Legion User's Manual Page 59
+ How to Get Help:
+ If you are having problems with 7th Legion, we can best
+ help you if (1) you are at your computer when you call
+ and (2) you have the following information handy:
+ • Version number of 7th Legion
+ m Your computer's brand and model
+ • Your computer's BIOS brand and version number
+ • Total RAM installed in your computer
+ • Version of DirectX drivers
+ • CD-ROM brand and model name
+ • Video card brand and model name
+ • Sound card brand and model name
+ • Mouse brand and version number of mouse driver
+ • Joystick brand and model name
+ • Any error message you see in the game
+Page 60 7th Legion User s Manual
+ith 7th Legion, we can best
+r computer when you call
+ I
+ig information handy:
+ion
+d model
+and and version number
+iur computer
+5
+;1 name I
+lei name
+del name
+number of mouse driver
+name
+e in the game
+ m
+ turn
+ II
+ V
+CREDITS VISION MICROPROSE
+ Programming: Paul Andrews Producer: Michael Mancus
+ Graphics: Rodney Smith Assistant Producer: Stan YE
+ Additional Programming: Simon Armstrong, Quality Assurance: Michai
+ Chuck Warner, Aaron Koolen Ken Schmidt (Multiplay
+ Additional Graphics & Animation: Grant Wallis Lianemany, Chris Evans
+ Music & Sound: Blair Zuppicich Contreras, Scott Crisostc
+ Jacob Hopkins, Steven E
+ EPIC MEGAGAMES, INC. Compatibility: Hoi Nguyen
+ Producer: Robert A. Allen and Phill "Monkey Boy"
+ Manual Copy, Design & Layout: Mike Forge QA Director: Leon Home I
+ Marketing: Mark Rein Product Marketing Manage
+ Imperial Advisor: Jay Wilbur Public Relations: Kathy Sa
+ Public Relations: Craig Lafferty Voice-Overs: Lani Minella,
+ Special Thanks: Dave Carter, Doug Hahn, Director of Internationalize
+ Edwin Carter, Doug Gibson Internationalization Produt
+ Special Thanks: John Csics
+ Kevin Flynn, Derek Mel
+ Jerome Paterno, Rick Ra
+ Rob Sears, Kip Welch, R
+ Page 62 7th Legion User s Manual
+ MICROPROSE
+ Producer: Michael Mancuso
+ Assistant Producer: Stan Yee
+ion Armstrong, Quality Assurance: Michael P. Gonos (Lead Tester),
+en Ken Schmidt (Multiplayer Lead), Vansouk
+\tion: Grant Wallis Lianemany, Chris Evans, Yobo Shen, Adam
+ich Contreras, Scott Crisostomo, Stewart Holbrook,
+ Jacob Hopkins, Steven Head
+ Compatibility: Hoi Nguyen (Compatibility Manager)
+ and Phill "Monkey Boy" Kenoyer
+ut: Mike Forge QA Director: Leon Home II
+ Product Marketing Manager: Carter Lipscomb
+ Public Relations: Kathy Sanguinetti
+rty Voice-Overs: Lani Minella, Ekim Osucnam
+Doug Hahn, Director of Internationalization: Daniel Berner
+n Internationalization Producer: Karen Ffinch
+ Special Thanks: John Csicsery, Caroline de Vera,
+ Kevin Flynn, Derek McLeish, Marisa Ong,
+ Jerome Paterno, Rick Rasay, Bill Schmidt,
+ Rob Sears, Kip Welch, Reiko Yamamoto
+ 7th Legion User's Manual Page 63
+ M I C R O P R d S E SOFTWARE L I C E N S E A G R E E M E N T
+ THE ENCLOSED SOFTWARE PROGRAM IS LICENSED BY MICROPROSE TO CUSTOMERS
+FOR THEIR USE ONLY ON THE TERMS SET FORTH BELOW. OPENING THIS PACKAGE OR
+USING THE ENCLOSED DISC INDICATES YOUR ACCEPTANCE OF THESE TERMS.
+ MicroProse hereby grants you a non-exclusive license to use the enclosed software and manual
+subject to the terms and restrictions set forth in this Software License Agreement.
+ This manual and the software accompanying it are copyrighted, with all rights reserved. You may not
+copy or otherwise reproduce any part of the software or the manual, except that you may load the
+software into a computer as an essential step in executing the software on the computer. The original
+and any back-up copies of the software and the manual are to be used only in connection with a single
+computer. You may physically transfer the software from one computer to another, provided that the
+software is used in connection with only one computer at a time. You may not transfer the software
+electronically from one computer to another over a network. You may not distribute copies of the
+software or the manual to others.
+ YOU MAY NOT USE, COPY, MODIFY, TRANSFER, SUBLICENSE, RENT, LEASE, CONVEY,
+TRANSLATE, CONVERT TO ANY PROGRAMMING LANGUAGE OR FORMAT OR DECOMPILE
+OR DISASSEMBLE THE SOFTWARE OR ANY COPY, MODIFICATION OR MERGED PORTION,
+IN WHOLE OR IN PART, EXCEPT AS EXPRESSLY PROVIDED FOR IN THIS LICENSE.
+ M I C R O P R Q S E NINETY-DAY LIMITED WARRANTY
+ To the original purchaser only, MicroProse warrants the disc on which this software product is
+recorded to be free from defects in materials and faulty workmanship under normal use for a period of
+ninety days from the date of purchase. If during this ninety-day period the disc should become
+defective, it may be returned to MicroProse for a replacement without charge, provided you have
+previously sent in your Warranty Registration Card to MicroProse or send proof of purchase of the
+program.
+ Your sole and exclusive remedy in the event of a defect is expressly limited to replacement of the
+disc as provided above. If failure of a disc has resulted from accident, abuse or neglect, MicroProse
+shall have noresponsibility to replace the disc under terms of this limited warranty.
+ If the disc should fail after the original ninety-day limited warranty period has expired, you may
+return the disc to MicroProse at the address noted below, accompanied by a check or money order for
+the applicable replacement fee (please contact Customer Support for the exact cost), a brief statement
+describing the defect, and your return address. MicroProse will replace the disc provided that you have
+previously returned your Warranty Registration Card to MicroProse, and the disc retains the original
+product label.
+ Any implied warranties relating to the disc, including any implied warranties of merchantability and
+fitness for a particular purpose, are limited to a period of ninety days from date of purchase. Publisher
+shall not be liable for indirect, special, or consequential damages resulting from the use of this product.
+Some states do not allow the exclusion or limitation of incidental or consequential damages, so the
+above limitations might not apply to you. This warranty gives you specific legal rights, and you may
+also have other rights which vary from state to state.
+ Licensed by Vision Software to Epic MegaGames. ©1997 Vision Software. All rights reserved.
+ 7th Legion is a trademark of Epic MegaGames, Inc.
+ MicroProse is a trademark of MicroProse, Inc. or its affiliated companies.
+ All other trademarks are the property of their respective holders.
+REEMENT
+ISE TO CUSTOMERS
+HIS PACKAGE OR
+E TERMS,
+tware and manual
+[.
+s reserved. You may not
+pou may load the
+mputer. The original
+mection with a single
+:r, provided that the r
+msfer the software
+ T
+ute copies of the
+ I
+F, LEASE, CONVEY,
+dAT OR DECOMPILE
+ /
+MERGED PORTION,
+S LICENSE.
+ Help is at your fingertips!
+ * Hints and tips are
+^RRANTY
+ftware product is
+ M a •phone callawa
+nal use for a period of
+hould become
+ US:900-773-HINT
+ovided you have
+of purchase of the
+) replacement of the
+eglect, MicroProse
+ty-
+s expired, you may
+k or money order for
+ Canada: 900-451-3546
+tst), a brief statement
+>rovided that you have
+ mmmi^m^immmmmmmmmmmm^iiimiimmmmmmmmmmmmmiiBiiiiimiimtm
+ retains the original
+of merchantability and
+f purchase. Publisher
+ $.95 per minute
+the use of this product, You must be 18 years or older or have parental permission
+jl damages, so the
+ to call the above 900 number (touch-tone phone required).
+rights, and you may
+ The hint-line is only available in the U.S. and Canada.
+. All rights reserved.
+jmpanies.
+ders.
