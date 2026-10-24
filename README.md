@@ -13,7 +13,7 @@ stays one setting away. No game data files are changed.
 | Pathfinding | New A* pathfinder: optimal paths, far fewer "can't find a path" failures. Verified against a bit-exact port of the original. |
 | Orders | Re-issuing an identical move/attack after a unit has stopped short now works (the original silently dropped it). |
 | Save / load | Unlimited save slots in pages of 10 with Prev/Next, plus a Delete button (Yes/No confirm) on each save. |
-| Menus | "Multiplayer or Skirmish" on the main menu; Cancel on the campaign-selection screen; Esc returns to the main menu. |
+| Menus | "Multiplayer or Skirmish" on the main menu; Credits button on the main menu (credits pages with their music); Cancel on the campaign-selection screen; Esc returns to the main menu. Menu animations capped at 60 fps so they run at the right speed on high refresh monitors (`menufps` setting). |
 | Skirmish lobby | Add or remove bots per row, choose each bot's faction, put every player on a team (No Team, Team 1, 2, 3). |
 | Lobby options | HQ Deassemble (On), Tribute Enemies (Off), Cheat Codes (Off), next to the original options. Saved with save games. |
 | Teams | Allies don't shoot each other automatically (friendly fire still possible by force attack), shared victory, shared vision, normal select cursor over allies, special orders only target enemies. |
@@ -40,8 +40,36 @@ Player colours follow the player number: 1 Blue, 2 Red, 3 Green, 4 Yellow, 5 Bla
    Use `ruleset=0` (or remove the line) for classic behaviour.
 4. Run `legion_enh.exe` instead of `legion.exe`.
 
-Multiplayer: every player must use the same `legion_enh.exe` and the same ruleset (the simulation differs). Until the lobby checks
-this, set it identically on all machines. Multiplayer across PCs with the new features is not tested yet (next phase).
+Optional settings under `[options]`:
+```
+menufps=60
+```
+Frame rate of the menus (default 60; `0` = uncapped like the original, which runs the menu animations too fast on 120 to 240 Hz screens).
+
+### Multiplayer on a LAN or over the internet
+
+Every player must use the same `legion_enh.exe` and the same ruleset (the simulation differs). Until the lobby checks this, set it
+identically on all machines. Multiplayer across PCs with the new features is not tested yet (current phase).
+
+Windows Firewall blocks the game's network traffic by default (the PCs can still ping each other, which makes this confusing). On
+**every** PC, open a Command Prompt **as administrator**, change to the game folder and run:
+
+```
+cd /d "C:\path\to\7th Legion"
+netsh advfirewall firewall add rule name="7th Legion" dir=in action=allow program="%CD%\legion.exe" profile=any
+netsh advfirewall firewall add rule name="7th Legion enh" dir=in action=allow program="%CD%\legion_enh.exe" profile=any
+netsh advfirewall firewall add rule name="DirectPlay helper" dir=in action=allow program="%windir%\SysWOW64\dplaysvr.exe" profile=any
+netsh advfirewall firewall add rule name="DirectPlay ports TCP" dir=in action=allow protocol=TCP localport=47624,2300-2400 profile=any
+netsh advfirewall firewall add rule name="DirectPlay ports UDP" dir=in action=allow protocol=UDP localport=2300-2400 profile=any
+```
+
+(On 32-bit Windows use `%windir%\System32\dplaysvr.exe`.) To remove them later:
+`netsh advfirewall firewall delete rule name="7th Legion"` and the same for the other four names.
+
+Then use **Internet UDP** (works on a LAN too): the host picks Multiplayer, Create Game, Internet UDP; the others pick Join Game,
+Internet UDP and type the host's IPv4 address (`ipconfig` on the host, for example 192.168.1.18). The DirectPlay **TCP/IP** option does
+not find games on current Windows in our tests. VPN adapters (Radmin, Hamachi, ZeroTier) can make the game pick the wrong address;
+disable them while playing on a LAN, or use their addresses on purpose to play through the VPN.
 
 ## Building the patched exe
 
@@ -62,7 +90,7 @@ bytes a hook overwrote. Native tests (`tools/*test*.c`, the oracle in `tools/ora
 - `RE/` reverse-engineering notes: function table (`index.md`), structs, globals, data formats, per-function write-ups, raw decompiler
   output, hook catalogue, change log. Start with `RE/START-HERE.md`.
 - `RE/src/` patch code: `path/` (pathfinder + reference port), `sim/` (orders, teams, HQ, tribute, self destruct, cheats),
-  `ui/` (save menus, campaign screen, menu text, lobby).
+  `ui/` (save menus, campaign screen, menu text, lobby, menu frame cap, credits).
 - `RE/tools/` patch builder, hook checker, test harnesses, benchmarks.
 
 ## Plan
