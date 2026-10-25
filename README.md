@@ -61,10 +61,15 @@ netsh advfirewall firewall add rule name="7th Legion enh" dir=in action=allow pr
 netsh advfirewall firewall add rule name="DirectPlay helper" dir=in action=allow program="%windir%\SysWOW64\dplaysvr.exe" profile=any
 netsh advfirewall firewall add rule name="DirectPlay ports TCP" dir=in action=allow protocol=TCP localport=47624,2300-2400 profile=any
 netsh advfirewall firewall add rule name="DirectPlay ports UDP" dir=in action=allow protocol=UDP localport=2300-2400 profile=any
+netsh advfirewall firewall add rule name="7th Legion Internet UDP port" dir=in action=allow protocol=UDP localport=25666 profile=any
+netsh advfirewall firewall add rule name="7th Legion Internet TCP port" dir=in action=allow protocol=TCP localport=25666 profile=any
 ```
 
+The game's own Internet UDP mode uses port 25666 (UDP and TCP). The two port rules cover every copy of the exe, whatever it
+is called, and every network type, including VPN adapters such as Hamachi or Radmin, which Windows usually treats as Public.
+
 (On 32-bit Windows use `%windir%\System32\dplaysvr.exe`.) To remove them later:
-`netsh advfirewall firewall delete rule name="7th Legion"` and the same for the other four names.
+`netsh advfirewall firewall delete rule name="7th Legion"` and the same for the other names.
 
 Then use **Internet UDP** (works on a LAN too): the host picks Multiplayer, Create Game, Internet UDP; the others pick Join Game,
 Internet UDP and type the host's IPv4 address (`ipconfig` on the host, for example 192.168.1.18). The DirectPlay **TCP/IP** option does
