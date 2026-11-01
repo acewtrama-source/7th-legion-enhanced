@@ -21,15 +21,18 @@ stays one setting away. No game data files are changed.
 | Self destruct | Double tap **D**: 5 second countdown for the selected units (or a selected building); double tap again to cancel. |
 | Sell buildings | Double tap **S** with one of your finished buildings selected: 5 second countdown, then the building is removed and you get half its cost back. Double tap again to cancel. Lobby option. |
 | Build list | Any number of pages; Back returns to the previous page. |
+| Control groups | Double tap a group key (1..0) to centre the camera on that group. **Shift + 1..0** adds the selected units to that group (Ctrl + number still replaces it) and selects the whole group. |
+| Rally points | A factory's rally point lasts until you change it, and works in multiplayer. |
 | Cheats (lobby option) | `cheese steak khaos` (+10000 credits), `khaos car` (random ranked unit at your HQ), `khaos box` (crate), `khaos mission` (a special order now), `khaos card` (a free card if there is room), `show red credits` (any colour, private). |
-| Score screen | After a game: points per player for kills, buildings and units made, research and tribute sent, with the title music (see below). |
+| Score screen | After every skirmish or multiplayer game, with the title music: kills, units made, buildings made, research and tribute sent per player, and points (kill 100, unit 20, building 50, research 200, tribute 1 per 10 credits). |
 | Cosmetic | Doom Fist II card gets the red attack-card border. |
 
 ### Menus and screens
 
 | Area | What changes |
 |---|---|
-| Main menu | "Multiplayer or Skirmish"; Credits button (credits pages with the title music); version shown bottom right ("1.00 Enh a21"). Menu animations capped at 60 fps so they run at the right speed on high refresh monitors (`menufps`). |
+| Main menu | "Multiplayer or Skirmish"; Credits button (credits pages with the title music); build shown bottom right ("1.00 Enh a58"). Menu animations capped at 60 fps so they run at the right speed on high refresh monitors (`menufps`). |
+| Keyboard | Arrow keys move between the buttons of any menu, Enter clicks (until the mouse moves again). |
 | Options | "Edge Scroll On/Off": turn off camera scrolling when the mouse touches the screen edge (arrow keys still scroll). |
 | Save / load | Unlimited save slots in pages of 10 with Prev/Next, plus a Delete button (Yes/No confirm) on each save. |
 | Campaign screen | Cancel button; Esc returns to the main menu. |
@@ -40,7 +43,7 @@ stays one setting away. No game data files are changed.
 
 | Area | What changes |
 |---|---|
-| Players and map | Click an empty or bot row to move there (joiners too); the host clicks an empty row to add a bot. Every row has its colour bar, a faction choice (7th, Chosen or "??" = random) and a team (No Team, Team 1 to 3, or "??" = auto balance). |
+| Players and map | Right click the map button for the previous map. Click an empty or bot row to move there (joiners too); the host clicks an empty row to add a bot. Every row has its colour bar, a faction choice (7th, Chosen or "??" = random) and a team (No Team, Team 1 to 3, or "??" = auto balance). |
 | Team "??" | Players set to "??" join the smallest team in use; if nobody picked a team they are dealt into 1v1, 1v1v1, 2v2, 3v2, 3v3 or 2v2v2. |
 | Options | Page 1: the original options plus HQ Deassemble, Tribute Enemies, Cheat Codes. "More..." opens page 2: Tech Lab On/Off (Off = nobody can build the Hi Tech Lab), Sell Buildings On/Off. Saved with save games. |
 | Load saved game | The host can load a saved multiplayer game in the lobby. The save is sent to the joiners ("LOAD name WAIT.." until everyone has it, then "READY"); the save's options and teams are shown and locked. |
@@ -52,9 +55,12 @@ stays one setting away. No game data files are changed.
 |---|---|
 | Pause | Esc opens the menu and pauses the game for everyone; the others see "Game paused by name". Alt-tab pauses the same way and opens the menu when you come back. |
 | Save | Save Game in the multiplayer menu (paged slots). Only the saving PC gets the file; that PC hosts the reload from the lobby. |
-| Team chat | **T** opens the chat line as "Message To Team...": only your team sees it, marked T1/T2/T3. Enter still sends to everyone. Numpad digits work in the chat line. |
-| Dropped players | A player (not the host) who goes silent for 40 seconds is taken over by a bot on the host and the game goes on. A player who quits is removed and their army destroyed (original behaviour). |
-| Sync check | Every few seconds the PCs compare a checksum of the game; on the first difference everyone sees "Sync lost at tick N with name" and `data\SYNC.LOG` is written (send it with a bug report). |
+| Team chat | **T** opens the chat line as "Message To Team...": only your team sees it, marked T1/T2/T3. Enter still sends to everyone. Numpad digits work in the chat line; Up / Down recall earlier messages. |
+| Responsiveness | Up to 30 commands per player per turn (the original sent 3 and executed at most 8), so big group orders, fights and production no longer lag or lose orders. |
+| Lockstep | Damage, deaths, production, unit positions, projectiles and effects are computed the same way on every PC (the original let each PC decide parts of this, which made games drift apart). |
+| Dropped players | A player (not the host) who goes silent for 60 seconds is taken over by a bot on the host and the game goes on; after 5 seconds the others see "Waiting for name". A player who quits is removed and their army destroyed (original behaviour). |
+| Sync check | Every few seconds the PCs compare checksums of six parts of the game (players, units, orders, buildings, projectiles, random numbers); on the first difference everyone sees "Sync lost at tick N with name" and every PC writes `data\SYNC.LOG` for the same tick (send the files of both PCs with a bug report; `tools/syncdiff.py` compares them). |
+| Diagnostics | **Ctrl+Alt+S** writes `data\STATE.LOG` (players, buildings, selected units and their recent orders, network counters); **Ctrl+Alt+D** shows a network overlay. A crash writes `data\CRASH.LOG`. |
 | Colours | Player colours follow the lobby row (Blue, Red, Green, Yellow, Black, White) on units, buildings, the minimap list and messages. |
 
 With `ruleset=0` (default) everything behaves like the original game.
@@ -80,6 +86,19 @@ lastip=192.168.1.18
   120 to 240 Hz screens).
 - `edgescroll`: 1 = the camera scrolls when the mouse touches the screen edge (default), 0 = off. Also in Options.
 - `lastip`, `lastip1`..`lastip5`: the remembered join addresses.
+
+### Windowed mode, borderless and sharp scaling (HD / 4K)
+
+The game itself only runs fullscreen at 640x480. For a window, borderless fullscreen or sharp scaling on high resolution screens,
+use **cnc-ddraw**, a free replacement for the old DirectDraw (https://github.com/FunkyFr3sh/cnc-ddraw). Tested with `legion_enh.exe`:
+
+1. Download the latest cnc-ddraw release and copy its `ddraw.dll` and `ddraw.ini` (and the config tool, if included) into the game
+   folder, next to `legion_enh.exe`.
+2. Start the game as usual. Choose windowed or fullscreen, borderless, scaling and the other display settings in `ddraw.ini` or with
+   cnc-ddraw's config tool; Alt+Enter switches between window and fullscreen while playing.
+3. To go back to the original DirectDraw, delete `ddraw.dll` from the game folder.
+
+Multiplayer, alt-tab pause and the emergency exit (Ctrl+Alt+End) work the same with cnc-ddraw.
 
 ### Multiplayer on a LAN or over the internet
 
@@ -112,6 +131,8 @@ does not find games on current Windows in our tests. VPN adapters can make the g
 them there, or use their addresses on purpose to play through the VPN.
 
 Tested: 2 players over LAN and Hamachi, with bots, teams, pause, save and lobby load. 3 or more people not tested yet.
+Alpha builds are named by version (`legion_enh_a58.exe`); rename or copy one to `legion_enh.exe`, or run it under its own name.
+All players must run the same build.
 
 ## Building the patched exe
 
@@ -121,6 +142,7 @@ Requires a 32-bit gcc, ld, objcopy and Python 3.
 sh tools/build_patch.sh /tmp/patch
 python3 tools/patch_exe.py path/to/legion.exe /tmp/patch legion_enh.exe
 python3 tools/check_hooks.py path/to/legion.exe legion_enh.exe
+python3 tools/syncdiff.py SYNC_PC1.LOG SYNC_PC2.LOG     # after a 'Sync lost': first differing tick and field
 ```
 
 The patch is linked as a new `.patch` section at VA `0xADE000` and hooks the original code at a list of call sites and short
@@ -132,24 +154,29 @@ functions or mocks on Linux.
 ## Repository layout
 
 - `RE/` reverse-engineering notes: function table (`index.md`), structs, globals, data formats, per-function write-ups, raw decompiler
-  output, hook catalogue, change log (`CHANGELOG.md`), multiplayer plan (`PHASE3.md`). Start with `RE/START-HERE.md`.
+  output, hook catalogue, change log (`CHANGELOG.md`), release list (`RELEASES.md`), plans (`PHASE3.md`, `PHASE4.md`). Start with
+  `RE/START-HERE.md`.
 - `RE/src/` patch code: `path/` (pathfinder + reference port), `sim/` (orders, teams, HQ, tribute, self destruct, sell, cheats,
   score), `ui/` (save menus, campaign screen, menu text, lobby and slots, multiplayer menu/pause/sync/drop, network screens, menu
   frame cap, credits).
-- `RE/tools/` patch builder, hook checker, test harnesses, benchmarks.
+- `RE/tools/` patch builder, hook checker, sync log comparer, test harnesses, benchmarks.
 
 ## Plan
 
 1. **Recover and document** the engine (ongoing; the important subsystems are done).
-2. **Fix the simulation and first enhancements**: done (Oct 2026). Open items carried forward: fire-on-move for plain Move,
-   attack-move, the occasional "unit ignores orders" report.
-3. **Dependable multiplayer** (current): 2 players over Internet UDP work with bots, teams, pause, save/load, version and sync
-   checks, dropped player to bot. Still open: a 3+ player test, recovering lost orders when the order queue is full, choosing seats
-   when loading a saved game, a quitting player handed to a bot.
-4. **More enhancements**: higher resolutions (HD/4K), extra units, balance, custom maps, better controls, an in-game choice of
-   classic or enhanced ruleset. The classic ruleset is always kept.
+2. **Fix the simulation and first enhancements**: done (Oct 2026).
+3. **Dependable multiplayer**: done (Oct 2026). 2 players over Internet UDP work with bots, teams, pause, save and lobby load,
+   version and sync checks, dropped player to bot, team chat and a score screen.
+4. **Enhancements** (current, see `RE/PHASE4.md`). Multiplayer modernisation first: reliable command delivery and sync checks per
+   subsystem are done, and the remaining desyncs found in long 2-player games are being fixed one by one (alpha a40 to a58); next a
+   score ledger and a replay / offline sync tester. Then: a wider view on HD and 4K screens (windowed mode and sharp scaling are
+   covered by cnc-ddraw), recovering lost orders, choosing seats when loading a saved multiplayer game, a 3+ player test, fire-on-move and
+   attack-move, a bigger unit table, an in-game choice of classic or enhanced ruleset, extra units, balance and custom maps.
+   The classic ruleset is always kept.
 
 ## Status
 
-Work in progress. Skirmish against bots is well tested; 2-player multiplayer over LAN and Hamachi is tested.
+Work in progress (alpha a58, Nov 2026). Skirmish against bots is well tested; 2-player multiplayer over LAN and Hamachi is tested,
+including long games with big fights; occasional desyncs are still being tracked down with the SYNC.LOG files. For a window or
+sharp HD / 4K scaling use cnc-ddraw (see Install).
 Back up your saves (`DATA/SAVE*.SAV`, and the `SAVE*.TMS` files next to them) before trying new builds.
