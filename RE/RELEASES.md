@@ -65,7 +65,9 @@ Test builds ship as `legion_enh_alpha.exe`; the main menu shows "1.00 Enh aNN". 
 | a54 | Nov 1 | MP: display-only effects (smoke, impact puffs) take the highest free projectile slot, so weapon projectiles get the same slot on every PC | longer games, several big fights; sync lost in shots at 4864, but only shots and one AI unit's order fields differed, briefly; units, buildings, players equal | a55 |
 | a55 | Nov 2 | diagnostics: per-tick shot list (K) and unit order-field change log (V) in SYNC.LOG; syncdiff sections 6-7 | sync lost in shots: same shots, different SLOTS (28 vs 27, 10 vs 16) from 3551 | a56 |
 | a56 | Nov 2 | MP: every spawn sorted by kind: damage-dealing kinds take the first free slot, all other effects the highest; each projectile update gets its own second-RNG position | sync lost in buildings at check 64: AI HQ timers 0 on the host, -2 on the joiner from tick 1 (HQ timer step is a per-PC clock value) | a57 |
-| a57 | Nov 2 | MP: HQ timer step 0x71b5f4 held at 1 (was the timer-interrupt count at game start, per PC); included in the rng hash | - | test |
+| a57 | Nov 2 | MP: HQ timer step 0x71b5f4 held at 1 (was the timer-interrupt count at game start, per PC); included in the rng hash | sync lost in units around a Domination cast: AI unit 63 reset only on the host at 4377; user: game very slow when one PC hosts | a58 |
+| a58 | Nov 2 | MP: kinds 0x10, 0x1b, 0x2c also count as simulation kinds (a56 had moved them to the top slots) | first complete 2-player game with no sync loss; score screens identical | - |
+| a59 | Nov 2 | P4.6 step 3: score ledger (per-tick events, sync-checked), 'Razed' column; 8 sync subsystems (+ score, effects) | - | test |
 
 Open items after a39: START-HERE.md 'Known open items' (kept current there).
 
@@ -135,6 +137,9 @@ Open items after a39: START-HERE.md 'Known open items' (kept current there).
   kind 0x1d draw 0x42e130 (local option 0x4afbe4); many sim spawn sites are gated by local options (0x4af814, 0x4afbe4) or use
   C rand. Kinds that deal damage (reach 0x42a140 / 0x42bd90): 2 0xf 0x12 0x14 0x1d 0x1f 0x21 0x22 0x23 0x26 0x27 0x28 0x29 0x2a
   0x2b. a56: in MP all 68 spawn calls go to spawn_fx: those kinds first-free from 0, everything else highest free slot.
+  a58: also 0x10 (writes unit/building hp; spawned by UI 0x464a41 and 0x44caf7 for a building target), 0x1b (creates the unit),
+  0x2c (writes unit +0xc2; spawned by CreateBuilding 0x42277b). Note: 0x4644c0 (UI, from 0x461750) spawns kind 0x10 with no
+  queue-mode check - local only in MP if it is reachable there (not verified).
   Update loop 0x45b430 calls each slot's +0x9c in slot order (0x45b564).
 
 ### Sound and music

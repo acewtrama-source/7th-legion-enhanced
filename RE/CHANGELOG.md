@@ -703,3 +703,41 @@ sha256 03d876271c77eff908de9edd14870e271dc56f855cf93f1ed3d15f82b0c82e68. Include
   Here the joiner had 0 (timer stuck at -2, as in all earlier logs) and the host >= 2.
 - Fix (MP, ruleset 1): rng2_align holds 0x71b5f4 = 1 every tick (before the commands and the building update); the rng hash
   includes it.
+
+### a58 (Nov 2 2026) - three more kinds count as simulation in the slot split
+sha256 0afd1a298b6ffa31d47c0e941b1bf10c8cb78ecbca60584d635979ae3c51563a.
+- a57 test: 'Sync lost in units / orders / shots' at check 4416, first at 4377, around a Domination cast by the red team. syncdiff
+  (sections 6, 7): at 4377 building 268 (player 3) was destroyed on both PCs and units 42 / 44 went idle on both, but AI unit 63
+  (attacking unit 44) went idle only on the host; its flame (link 63) then sat at a slightly different position, and units 60-62
+  and 42 / 43 differed later. No command differed. Unit 43 (player 2's slot range) had owner 3 = converted.
+- [O] Scanning each kind's update / draw functions (3 call levels) for unit, building or credit writes and order / damage /
+  create calls finds three kinds a56 treated as effects: 0x10 (writes unit +0x10 / building +0x54 hp; spawned by 0x464a41 in the
+  UI handler 0x4644c0 and 0x44caf7, both with a building target), 0x1b (calls CreateUnit 0x424c20), 0x2c (writes unit +0xc2;
+  spawned by CreateBuilding 0x42277b). Since a56 those took the highest free slot, so their slot and second-RNG values could
+  differ per PC. The exact path to unit 63 was not found; this is the most likely a56 regression.
+- Fix: sim_kind() also lists 0x10, 0x1b, 0x2c (first-free search as the original).
+- Not changed: 0x4644c0 (UI, from 0x461750) spawns kind 0x10 without a queue-mode check (possible local-only effect in MP).
+- User report: one PC (theirs) ran at about one frame per five seconds while hosting; fine as joiner; the other PC fine both ways.
+  No log of that game yet.
+- a58 result (Nov 2 2026, user): a full 2-player game ran to the end with no 'Sync lost'; the score screens matched exactly.
+  First clean game since the P4.6 diagnostics (a40). Still open: user's PC very slow as host (no log yet); UI kind 0x10 spawn
+  0x4644c0 without queue check (unverified).
+
+### a59 (Nov 2 2026) - P4.6 step 3: score ledger
+sha256 b369ab240e7a1b64996a3e34efcb185e560e4a2f876e9eddb991708f51d4b282. File legion_enh_a59.exe (builds are now named by version, user request).
+- score.c: score_tick (called from exec_cmds after unit_hist, once per tick, skirmish and MP) replaces score_frame (per frame from
+  esc_frame). It turns the changes since the last tick into ledger events (tick, player, kind, entity, value): 1 kill (delta of
+  the game counter 0x9d5a00[p]), 2 unit made, 3 building made, 4 research done, 5 tribute credits, 6 razed (new), 7 unit lost.
+  Totals per player and kind are kept with the events; the score screen uses only the totals. Ring of 8192 events.
+- Razed: a building of another player that disappears with hp +0x54 <= 0 within 4 ticks of an hp drop; the hitter is the owner of
+  the last attacker unit +0x7c (else attacker building +0x80) sampled when the hp dropped ([O] written by the hit code 0x42b3b0 /
+  0x42b3c5 from projectile +0x90 / +0x94). DestroyBuilding 0x42ccc0 (sell, self destruct) leaves hp > 0, so those don't count.
+  100 points.
+- Score screen: columns Kills Units Bldgs Razed Tech Tribute Score; names cut to 12 characters ('CPU n' for bots); footer
+  'Kill 100 Unit 20 Bldg 50 Razed 100 Tech 200 Tribute 1/10cr'.
+- Sync check: NS 6 -> 8: 'score' = running FNV hash of every ledger event; 'effects' = summed hash (owner, kind, x, y) of the
+  simulation pool kinds that are not weapon shots (0x10 0x1b 0x1d 0x2c). Four CK parts per check; S lines carry 8 hashes.
+- SYNC.LOG: 'score ledger' section (L tick player kind ent value for the last 512 ticks, T player totals). syncdiff.py: S lines with
+  8 hashes, section 8 = first differing ledger event and differing totals.
+- PHASE4.md: step 3 marked built; 'Simulator' notes (user goal: fast headless engine simulator for diagnostics and AI learning;
+  replays designed as its first piece).
